@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+
+  .contenedor{
+    width: 100%;
+  }
+
+  .tabla-receta{
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .encabezado{
+    background-color: chartreuse;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .ingredientes{
+    background-color: rgb(68, 171, 255);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .ingrediente{
+    background-color: rgb(159, 212, 255);
+    border: 1px solid black;
+  }
+
+  .preparacion{
+    background-color: rgb(229, 255, 0);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .paso{
+    background-color: rgb(248, 255, 155);
+    border: 1px solid black;
+    font-size: 12px;
+  }
+
+  .pie{
+    background-color: rgb(65, 65, 65);
+    border: 1px solid black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .capturar{
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px
+  }
+}
